@@ -1,12 +1,19 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import filmProductionImg from "../../assets/filmProduction.png"; 
+import bg from "../../assets/bg.png";
 
 const FilmProductionPage = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="min-h-screen bg-[#fdf4ef] flex flex-col items-center justify-center px-6 text-gray-800 relative">
+    <div className="min-h-screen bg-[#fdf4ef] flex flex-col items-center justify-center px-6 text-gray-800 relative"
+      style={{
+                            backgroundImage: `url(${bg})`,
+                            backgroundRepeat: "repeat",
+                            backgroundSize: "auto",
+                            backgroundColor: "#fffaf8",
+                        }}>
       {/* Back Button */}
       <button
         onClick={() => navigate("/services")}
