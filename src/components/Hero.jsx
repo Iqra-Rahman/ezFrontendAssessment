@@ -1,10 +1,17 @@
 import React from "react";
 import mandala from "../assets/vfilms-logo.png"; 
-import mainlogo from "../assets/logo.png"; 
+import mainlogo from "../assets/logo.png";
+import bg from "../assets/bg.png";
 
 const Hero = () => {
     return (
-        <section className="bg-[#faefe9] min-h-screen w-full flex items-center justify-center px-6 md:px-12">
+        <section className="bg-[#faefe9] min-h-screen w-full flex items-center justify-center px-6 md:px-12"
+            style={{
+                            backgroundImage: `url(${bg})`,
+                            backgroundRepeat: "repeat",
+                            backgroundSize: "auto",
+                            backgroundColor: "#fffaf8",
+                        }}>
             <div className="flex flex-col md:flex-row items-center justify-between max-w-6xl w-full gap-10">
 
                 {/* Left */}
