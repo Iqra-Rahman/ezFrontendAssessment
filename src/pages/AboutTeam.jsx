@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import aboutPara from "../assets/aboutpara.png";
 import indiaGate from "../assets/indiagate.png";
 import people from "../assets/people.png";
-import people from "../assets/bg.png";
+import bg from "../assets/bg.png";
 
 const AboutTeam = () => {
   const navigate = useNavigate();
