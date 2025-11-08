@@ -2,10 +2,17 @@ import React from "react";
 import mbr from "../assets/mbr.png";
 import video from "../assets/video.png";
 import camera from "../assets/camera.png";
+import people from "../assets/bg.png";
 
 const Varnan = () => {
   return (
-    <div className="relative bg-[#fff7f2] min-h-screen overflow-hidden flex flex-col items-center justify-center text-gray-800 px-4 sm:px-8 py-10">
+    <div className="relative bg-[#fff7f2] min-h-screen overflow-hidden flex flex-col items-center justify-center text-gray-800 px-4 sm:px-8 py-10"
+      style={{
+                            backgroundImage: `url(${bg})`,
+                            backgroundRepeat: "repeat",
+                            backgroundSize: "auto",
+                            backgroundColor: "#fffaf8",
+                        }}>
       
       <div className="text-center mb-10 sm:mb-16">
         <p className="text-base sm:text-lg md:text-xl font-serif max-w-md mx-auto">
