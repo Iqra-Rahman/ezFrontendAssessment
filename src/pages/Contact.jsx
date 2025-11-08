@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import mandala1 from "../assets/blm.png";
 import mandala2 from "../assets/trm.png";
+import people from "../assets/bg.png";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -58,7 +59,13 @@ const Contact = () => {
   };
 
   return (
-    <div className="flex flex-col md:flex-row min-h-screen bg-[#f8e7df] relative overflow-hidden">
+    <div className="flex flex-col md:flex-row min-h-screen bg-[#f8e7df] relative overflow-hidden"
+      style={{
+                            backgroundImage: `url(${bg})`,
+                            backgroundRepeat: "repeat",
+                            backgroundSize: "auto",
+                            backgroundColor: "#fffaf8",
+                        }}>
       {/* Left Section */}
       <div className="w-full md:w-2/5 flex flex-col items-center justify-center text-center px-6 md:px-10 py-10 md:py-0 relative md:mb-20">
         <p className="text-gray-800 text-base sm:text-lg md:text-xl md:ml-50 md:mb-20 md:w-full z-10">
