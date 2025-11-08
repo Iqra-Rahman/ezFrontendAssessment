@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import mandala1 from "../assets/blm.png";
 import mandala2 from "../assets/trm.png";
-import people from "../assets/bg.png";
+import bg from "../assets/bg.png";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
