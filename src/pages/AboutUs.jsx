@@ -2,7 +2,7 @@ import React from "react";
 import cursive from "../assets/abouttext.png";
 import ted from "../assets/ted.png";
 import hills from "../assets/hill.png";
-import people from "../assets/bg.png";
+import bg from "../assets/bg.png";
 
 const AboutUs = () => {
   return (
