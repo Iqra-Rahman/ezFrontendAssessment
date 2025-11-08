@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import filmImg from "../assets/film.png";
 import brandingImg from "../assets/branding.png";
 import artImg from "../assets/art.png";
+import people from "../assets/bg.png";
 
 const Services = () => {
   const navigate = useNavigate();
@@ -26,7 +27,13 @@ const Services = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-[#fff7f2] flex flex-col items-center py-10">
+    <div className="min-h-screen bg-[#fff7f2] flex flex-col items-center py-10"
+      style={{
+                            backgroundImage: `url(${bg})`,
+                            backgroundRepeat: "repeat",
+                            backgroundSize: "auto",
+                            backgroundColor: "#fffaf8",
+                        }}>
       {/* Heading */}
       <h2 className="text-xl font-serif text-gray-800 pb-2">
         The storyboard reveals the breadth of our craft.
