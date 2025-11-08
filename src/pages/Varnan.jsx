@@ -2,7 +2,7 @@ import React from "react";
 import mbr from "../assets/mbr.png";
 import video from "../assets/video.png";
 import camera from "../assets/camera.png";
-import people from "../assets/bg.png";
+import bg from "../assets/bg.png";
 
 const Varnan = () => {
   return (
