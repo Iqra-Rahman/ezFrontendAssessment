@@ -3,12 +3,19 @@ import { useNavigate } from "react-router-dom";
 import aboutPara from "../assets/aboutpara.png";
 import indiaGate from "../assets/indiagate.png";
 import people from "../assets/people.png";
+import people from "../assets/bg.png";
 
 const AboutTeam = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="relative bg-[#fff7f2] min-h-screen overflow-hidden flex flex-col items-center justify-center text-gray-800 px-4 sm:px-6 md:px-12 py-10">
+    <div className="relative bg-[#fff7f2] min-h-screen overflow-hidden flex flex-col items-center justify-center text-gray-800 px-4 sm:px-6 md:px-12 py-10"
+      style={{
+                            backgroundImage: `url(${bg})`,
+                            backgroundRepeat: "repeat",
+                            backgroundSize: "auto",
+                            backgroundColor: "#fffaf8",
+                        }}>
       
       {/* Crumbled Paper */}
       <img
