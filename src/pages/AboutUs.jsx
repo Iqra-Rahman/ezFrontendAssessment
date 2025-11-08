@@ -2,10 +2,17 @@ import React from "react";
 import cursive from "../assets/abouttext.png";
 import ted from "../assets/ted.png";
 import hills from "../assets/hill.png";
+import people from "../assets/bg.png";
 
 const AboutUs = () => {
   return (
-    <section className="mt-0 w-full flex items-center justify-center px-6 md:px-12 py-16 bg-[#fff7f2]">
+    <section className="mt-0 w-full flex items-center justify-center px-6 md:px-12 py-16 bg-[#fff7f2]"
+      style={{
+                            backgroundImage: `url(${bg})`,
+                            backgroundRepeat: "repeat",
+                            backgroundSize: "auto",
+                            backgroundColor: "#fffaf8",
+                        }}>
       <div className="flex flex-col md:flex-row items-center justify-between max-w-6xl w-full gap-12 relative">
         
         {/* Left Section  */}
